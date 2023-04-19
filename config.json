@@ -60,12 +60,6 @@
             "only_deploy": false
         },
         {
-            "script": "random_py 1 9 1 9 _",
-            "description": "",
-            "is_example": false,
-            "only_deploy": false
-        },
-        {
             "script": "random_py 1 9 1 9 __",
             "description": "",
             "is_example": false,
