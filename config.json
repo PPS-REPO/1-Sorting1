@@ -174,7 +174,7 @@
             "only_deploy": false
         },
         {
-            "script": "random 10000",
+            "script": "random 10000 -1000000 1000000",
             "description": "",
             "is_example": false,
             "only_deploy": false
