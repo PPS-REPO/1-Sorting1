@@ -168,6 +168,12 @@
             "only_deploy": false
         },
         {
+            "script": "random 50000",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
             "script": "random 1000",
             "description": "",
             "is_example": false,
@@ -181,12 +187,6 @@
         },
         {
             "script": "random 10",
-            "description": "",
-            "is_example": false,
-            "only_deploy": false
-        },
-        {
-            "script": "random 50000",
             "description": "",
             "is_example": false,
             "only_deploy": false
