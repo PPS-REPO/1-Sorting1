@@ -62,7 +62,7 @@
         {
             "script": "manual 3",
             "description": "",
-            "is_example": false,
+            "is_example": true,
             "only_deploy": false
         }
     ],
