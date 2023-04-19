@@ -32,11 +32,6 @@
             "name": "solution.py",
             "language": "py3",
             "type": "AC"
-        },
-        {
-            "name": "solution_wa.cc",
-            "language": "cpp11",
-            "type": "WA"
         }
     ],
     "generators": [
