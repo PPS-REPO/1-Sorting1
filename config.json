@@ -38,7 +38,7 @@
         {
             "name": "generator.cc",
             "language": "cpp11",
-            "alias": "random_cc"
+            "alias": "random"
         },
         {
             "name": "generator_manual.py",
