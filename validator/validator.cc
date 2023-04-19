@@ -1,16 +1,21 @@
 #include "testlib.h"
 using namespace std;
 
-#define A_MIN 1
-#define A_MAX 9
-#define B_MIN 1
-#define B_MAX 9
+#define N_MIN 1
+#define N_MAX 200000
+#define AI_MIN -1000000
+#define AI_MAX  1000000
 
 int main(int argc, char** argv) {
     registerValidation(argc, argv);
-    inf.readInt(A_MIN, A_MAX, "A");
-    inf.readSpace();
-    inf.readInt(B_MIN, B_MAX, "B");
+
+    int n;
+    
+    n = inf.readInt(N_MIN, N_MAX, "N");
     inf.readEoln();
+    for (int i = 0; i < n; ++i) {
+        inf.readInt(AI_MIN, AI_MAX, "A_I");
+        inf.readEoln();
+    }
     inf.readEof();
 }
