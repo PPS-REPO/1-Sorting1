@@ -120,7 +120,7 @@
             "only_deploy": false
         },
         {
-            "script": "random 199996",
+            "script": "random 199996 -1000000 -909090",
             "description": "",
             "is_example": false,
             "only_deploy": false
