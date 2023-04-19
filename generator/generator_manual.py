@@ -21,3 +21,13 @@ elif t == 6:
     print(n)
     for i in range(n):
         print((i - 99998) * 10)
+elif t == 7:
+    n = 200000
+    print(n)
+    for i in range(n - 1, -1, -1):
+        print((i - 100000) * 10)
+elif t == 8:
+    n = 199999
+    print(n)
+    for i in range(n - 1, -1, -1):
+        print((i - 99998) * 10)
