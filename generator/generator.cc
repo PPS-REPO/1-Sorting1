@@ -2,19 +2,21 @@
 
 using namespace std;
 
+int ar[202020];
+
 int main(int argc, char** argv) {
-    int al, ar, bl, br, a, b;
+    int n, l, r;
     
     registerGen(argc, argv, 1);
 
-    al = atoi(argv[1]);
-    ar = atoi(argv[2]);
-    bl = atoi(argv[3]);
-    br = atoi(argv[4]);
+    n = atoi(argv[1]);
+    l = atoi(argv[2]);
+    r = atoi(argv[3]);
 
-    a = rnd.next(al, ar);
-    b = rnd.next(bl, br);
-
-    printf("%d %d\n", a, b);
+    printf("%d\n", n);
+    for (int i = 0; i < n; ++i) {
+        ar[i] = rnd.next(l, r);
+    }
+    for (int i = 0; i < n; ++i) printf("%d\n", ar[i]);
     return 0;
 }
