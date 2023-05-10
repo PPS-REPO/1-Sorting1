@@ -10,7 +10,7 @@
         "memory": 268435456,
         "factor": {}
     },
-    "enable_language": [],
+    "enable_language": null,
     "statements": [
         {
             "name": "statement.md",
@@ -197,5 +197,5 @@
         "config": 1,
         "repository": 1
     },
-    "deploy_uuid": "0595b6ac-9db5-4676-b9cb-662feae9aa54"
+    "deploy_uuid": "257fead5-1e5f-4f27-801a-0a40d7cdd093"
 }
