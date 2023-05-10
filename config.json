@@ -8,32 +8,7 @@
     "limits": {
         "time": 2000,
         "memory": 268435456,
-        "factor": {
-            "c11": {
-                "time": 2000,
-                "memory": 268435456
-            },
-            "c99": {
-                "time": 2000,
-                "memory": 268435456
-            },
-            "cpp11": {
-                "time": 2000,
-                "memory": 268435456
-            },
-            "cpp17": {
-                "time": 2000,
-                "memory": 268435456
-            },
-            "java8": {
-                "time": 2000,
-                "memory": 268435456
-            },
-            "py3": {
-                "time": 2000,
-                "memory": 268435456
-            }
-        }
+        "factor": {}
     },
     "enable_language": [],
     "statements": [
