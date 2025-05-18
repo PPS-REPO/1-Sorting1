@@ -6,7 +6,6 @@
     "validator": "validator.cc",
     "validator_language": "cpp11",
     "subtask": false,
-    "subtask_group": [],
     "limits": {
         "time": 2000,
         "memory": 268435456,
@@ -43,153 +42,179 @@
             "alias": "manual"
         }
     ],
+    "subtask_group": [],
     "genscript": [
         {
             "script": "manual 1",
+            "subtask_group": "",
             "description": "예제로 사용될 데이터 1번입니다.",
             "is_example": true,
             "only_deploy": false
         },
         {
             "script": "manual 2",
+            "subtask_group": "",
             "description": "예제로 사용될 데이터 2번입니다.",
             "is_example": true,
             "only_deploy": false
         },
         {
             "script": "manual 3",
+            "subtask_group": "",
             "description": "",
             "is_example": true,
             "only_deploy": false
         },
         {
             "script": "manual 4",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "manual 5",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "manual 6",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "manual 7",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "manual 8",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 200000 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 199999 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 199998 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 199997 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 199996 -1000000 -909090",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 199995 909090 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 199994 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 199993 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 199992 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 199991 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 199990 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 100000 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 50000 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 10000 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 1000 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 100 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
             "script": "random 10 -1000000 1000000",
+            "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
@@ -199,5 +224,5 @@
         "config": 1,
         "repository": 1
     },
-    "deploy_uuid": "e833adaa-bd0b-4cb0-86c3-c7925491fc30"
+    "deploy_uuid": "7bc5d67f-a86c-4cd9-9428-ffa822c6e238"
 }
